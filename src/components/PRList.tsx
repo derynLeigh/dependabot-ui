@@ -6,7 +6,7 @@ export const PRList = ({ prs }: PRListProps) => {
     <ul className='space-y-2'>
       {prs.map((pr: PR) => (
         <li key={pr.id} className='border p-4 rounded-md'>
-          <h3 className='text-lg font-semibold'>
+          <h3 className='text-lg text-blue-400 font-semibold'>
             <a href={pr.htmlUrl} target='_blank' rel='noopener noreferrer'>
               {pr.title}
             </a>
