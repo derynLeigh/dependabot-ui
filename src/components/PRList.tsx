@@ -1,5 +1,6 @@
 import React from 'react';
-import { PRListProps, PR } from '../interfaces';
+import { PR, PRListProps } from '../types/types';
+
 export const PRList = ({ prs }: PRListProps) => {
   return (
     <ul className='space-y-2'>
