@@ -1,0 +1,7 @@
+{
+    "monokaiPro.fileIconsMonochrome": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleAttributePerLine": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5"
+}
