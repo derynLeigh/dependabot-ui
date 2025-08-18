@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div className='container mx-auto p-2'>
-      <h1 className='text-5xl font-bold my-6'>
+      <h1 className='text-4xl text-indigo-500 font-bold my-6'>
         📝 Daily Dependabot PR Summary
       </h1>
       <PRList prs={prs} />
